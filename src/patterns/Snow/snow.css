@@ -1,0 +1,6 @@
+.snow__site-wrapper {
+    height: 100vh;
+    width: 100vh;
+    background: #282c34;
+    position: fixed;
+}
