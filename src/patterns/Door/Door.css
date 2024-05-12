@@ -124,6 +124,8 @@
     background: #292654;
     border-radius: 50%;
     box-shadow: inset 0 0 10px 5px rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: center;
 }
 
 .advent-door:hover .advent-door__box {
@@ -186,7 +188,7 @@
     height: 20%;
     position: absolute;
     top: -15%;
-    left: 50%;
+    left: 55%;
     margin-left: -12%;
     border-radius: 50%;
     border: 0.35rem solid #a94b61;

@@ -60,7 +60,7 @@ function createDoor(day, isOpen) {
                 <h2>{day}</h2>
             </div>
             <div className="advent-door__present">
-                <div className="advent-door__bauble">{isOpen ? "?" : ""}</div>
+                <div className="advent-door__bauble">{isOpen && ""}</div>
             </div>
         </div>
     );
