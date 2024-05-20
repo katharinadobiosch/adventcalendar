@@ -1,3 +1,5 @@
+@import url("../../../src//variables.css");
+
 .advent-door__wrapper {
     width: 90%;
     height: fit-content;
@@ -9,9 +11,22 @@
 }
 
 .advent-door__wrapper h1 {
-    font-size: 20rem;
+    font-size: 3rem;
     margin-bottom: 0;
     margin-top: 0;
+
+    @media screen and (min-width: 480px) {
+        font-size: 6rem;
+    }
+    @media screen and (min-width: 768px) {
+        font-size: 9rem;
+    }
+    @media screen and (min-width: 1024px) {
+        font-size: 12rem;
+    }
+    @media screen and (min-width: 1280px) {
+        font-size: 15rem;
+    }
 }
 
 #adventBoxes {
@@ -85,11 +100,28 @@
 
 .advent-door {
     display: inline-block;
-    width: 30rem;
-    height: 30rem;
+    width: 14rem;
+    height: 14rem;
     margin: 0.5em;
     -webkit-perspective: 850px;
     perspective: 850px;
+
+    @media screen and (min-width: 480px) {
+        width: 15rem;
+        height: 15rem;
+    }
+    @media screen and (min-width: 768px) {
+        width: 20rem;
+        height: 20rem;
+    }
+    @media screen and (min-width: 1024px) {
+        width: 25rem;
+        height: 25rem;
+    }
+    @media screen and (min-width: 1280px) {
+        width: 30rem;
+        height: 30rem;
+    }
 }
 
 .advent-door__box {
@@ -110,22 +142,46 @@
 }
 .advent-door__box h2 {
     position: absolute;
-    width: 8rem;
-    height: 8rem;
+    width: 10rem;
+    height: 10rem;
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     margin: 0;
-    padding: 0.5em;
-    font-size: 10rem;
-    line-height: 8rem;
+    font-size: 5rem;
+    line-height: 9.5rem;
     color: white;
     background: #292654;
     border-radius: 50%;
     box-shadow: inset 0 0 10px 5px rgba(0, 0, 0, 0.15);
     display: flex;
     justify-content: center;
+
+    @media screen and (min-width: 480px) {
+        width: 10rem;
+        height: 10rem;
+        font-size: 5rem;
+        line-height: 9.5rem;
+    }
+    @media screen and (min-width: 768px) {
+        width: 15rem;
+        height: 15rem;
+        font-size: 10rem;
+        line-height: 13.5rem;
+    }
+    @media screen and (min-width: 1024px) {
+        width: 20rem;
+        height: 20rem;
+        font-size: 12rem;
+        line-height: 19rem;
+    }
+    @media screen and (min-width: 1280px) {
+        width: 25rem;
+        height: 25rem;
+        font-size: 15rem;
+        line-height: 24rem;
+    }
 }
 
 .advent-door:hover .advent-door__box {
@@ -162,8 +218,8 @@
 
 .advent-door__bauble {
     position: relative;
-    width: 8em;
-    height: 8em;
+    width: 9rem;
+    height: 9rem;
     background: #a94b61;
     margin: 25% auto 0 auto;
     font-size: 2em;
@@ -171,6 +227,23 @@
     line-height: 2.75em;
     color: white;
     border-radius: 50%;
+
+    @media screen and (min-width: 480px) {
+        width: 10rem;
+        height: 10rem;
+    }
+    @media screen and (min-width: 768px) {
+        width: 12rem;
+        height: 12rem;
+    }
+    @media screen and (min-width: 1024px) {
+        width: 16rem;
+        height: 16rem;
+    }
+    @media screen and (min-width: 1280px) {
+        width: 20rem;
+        height: 20rem;
+    }
 }
 .advent-door__bauble:after {
     content: "";

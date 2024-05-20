@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./Door.css";
 
 const DECEMBER = 11;
-const TOTAL_DOORS = 25;
+const TOTAL_DOORS = 24;
 
 function Door() {
     const [adventBoxes, setAdventBoxes] = useState([]);
